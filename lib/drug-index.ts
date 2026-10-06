@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import type { DrugRecord } from './types';
 
-interface IndexBundle {
+export interface IndexBundle {
   records: string[][];
   inverted: Map<string, number[]>;
   ingredients: Record<string, number[]>;
