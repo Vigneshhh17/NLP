@@ -1,0 +1,552 @@
+{
+  "version": "1.0",
+  "classes": {
+    "ssri": {
+      "label": "SSRI antidepressant",
+      "members": ["fluoxetine", "sertraline", "paroxetine", "citalopram", "escitalopram", "fluvoxamine", "vilazodone", "vortioxetine"]
+    },
+    "maoi": {
+      "label": "MAO inhibitor",
+      "members": ["phenelzine", "tranylcypromine", "isocarboxazid", "selegiline", "rasagiline", "moclobemide", "linezolid"]
+    },
+    "snri": {
+      "label": "SNRI antidepressant",
+      "members": ["venlafaxine", "desvenlafaxine", "duloxetine", "milnacipran"]
+    },
+    "tca": {
+      "label": "Tricyclic antidepressant",
+      "members": ["amitriptyline", "nortriptyline", "imipramine", "clomipramine", "doxepin"]
+    },
+    "nsaid": {
+      "label": "NSAID",
+      "members": ["ibuprofen", "naproxen", "diclofenac", "ketorolac", "celecoxib", "indomethacin", "meloxicam", "piroxicam", "etoricoxib", "aceclofenac"]
+    },
+    "aspirin": {
+      "label": "Aspirin / salicylate",
+      "members": ["aspirin", "acetylsalicylic acid"]
+    },
+    "anticoagulant": {
+      "label": "Anticoagulant",
+      "members": ["warfarin", "apixaban", "rivaroxaban", "dabigatran", "edoxaban", "heparin", "enoxaparin", "dalteparin", "fondaparinux"]
+    },
+    "antiplatelet": {
+      "label": "Antiplatelet",
+      "members": ["clopidogrel", "ticagrelor", "prasugrel", "dipyridamole", "cilostazol"]
+    },
+    "statin": {
+      "label": "Statin",
+      "members": ["atorvastatin", "simvastatin", "rosuvastatin", "pravastatin", "lovastatin", "fluvastatin", "pitavastatin"]
+    },
+    "fibrate": {
+      "label": "Fibrate",
+      "members": ["gemfibrozil", "fenofibrate", "bezafibrate"]
+    },
+    "ace_inhibitor": {
+      "label": "ACE inhibitor",
+      "members": ["ramipril", "enalapril", "lisinopril", "perindopril", "captopril", "benazepril", "fosinopril", "trandolapril"]
+    },
+    "arb": {
+      "label": "Angiotensin receptor blocker",
+      "members": ["losartan", "valsartan", "telmisartan", "olmesartan", "irbesartan", "candesartan", "azilsartan"]
+    },
+    "potassium_sparing_diuretic": {
+      "label": "Potassium-sparing diuretic",
+      "members": ["spironolactone", "eplerenone", "amiloride", "triamterene", "finerenone"]
+    },
+    "loop_diuretic": {
+      "label": "Loop diuretic",
+      "members": ["furosemide", "bumetanide", "torsemide", "ethacrynic acid"]
+    },
+    "thiazide": {
+      "label": "Thiazide / thiazide-like diuretic",
+      "members": ["hydrochlorothiazide", "chlorthalidone", "indapamide", "metolazone"]
+    },
+    "beta_blocker": {
+      "label": "Beta blocker",
+      "members": ["metoprolol", "propranolol", "atenolol", "bisoprolol", "carvedilol", "labetalol", "nebivolol", "esmolol"]
+    },
+    "calcium_channel_blocker": {
+      "label": "Calcium channel blocker",
+      "members": ["amlodipine", "verapamil", "diltiazem", "nifedipine", "felodipine", "nicardipine"]
+    },
+    "opioid": {
+      "label": "Opioid analgesic",
+      "members": ["morphine", "oxycodone", "hydrocodone", "codeine", "fentanyl", "methadone", "tramadol", "tapentadol", "buprenorphine", "hydromorphone", "oxymorphone"]
+    },
+    "benzodiazepine": {
+      "label": "Benzodiazepine",
+      "members": ["diazepam", "alprazolam", "clonazepam", "lorazepam", "midazolam", "temazepam", "oxazepam", "chlordiazepoxide"]
+    },
+    "z_drug": {
+      "label": "Z-drug hypnotic",
+      "members": ["zolpidem", "zopiclone", "eszopiclone", "zaleplon"]
+    },
+    "sulfonylurea": {
+      "label": "Sulfonylurea",
+      "members": ["glimepiride", "glipizide", "glyburide", "gliclazide", "glibenclamide", "chlorpropamide"]
+    },
+    "biguanide": {
+      "label": "Biguanide antidiabetic",
+      "members": ["metformin"]
+    },
+    "insulin": {
+      "label": "Insulin",
+      "members": ["insulin", "insulin glargine", "insulin aspart", "insulin lispro", "insulin detemir", "insulin degludec"]
+    },
+    "ppi": {
+      "label": "Proton pump inhibitor",
+      "members": ["omeprazole", "esomeprazole", "pantoprazole", "lansoprazole", "rabeprazole", "dexlansoprazole"]
+    },
+    "macrolide": {
+      "label": "Macrolide antibiotic",
+      "members": ["clarithromycin", "erythromycin", "azithromycin", "roxithromycin"]
+    },
+    "fluoroquinolone": {
+      "label": "Fluoroquinolone antibiotic",
+      "members": ["ciprofloxacin", "levofloxacin", "moxifloxacin", "ofloxacin", "norfloxacin"]
+    },
+    "aminoglycoside": {
+      "label": "Aminoglycoside",
+      "members": ["gentamicin", "tobramycin", "amikacin", "streptomycin", "neomycin"]
+    },
+    "azole_antifungal": {
+      "label": "Azole antifungal",
+      "members": ["fluconazole", "itraconazole", "ketoconazole", "voriconazole", "posaconazole", "miconazole"]
+    },
+    "nitrate": {
+      "label": "Nitrate",
+      "members": ["nitroglycerin", "isosorbide", "isosorbide mononitrate", "isosorbide dinitrate"]
+    },
+    "pde5_inhibitor": {
+      "label": "PDE5 inhibitor",
+      "members": ["sildenafil", "tadalafil", "vardenafil", "avanafil"]
+    },
+    "triptan": {
+      "label": "Triptan",
+      "members": ["sumatriptan", "rizatriptan", "zolmitriptan", "eletriptan", "naratriptan", "almotriptan"]
+    },
+    "anticonvulsant": {
+      "label": "Anticonvulsant",
+      "members": ["phenytoin", "carbamazepine", "valproate", "lamotrigine", "levetiracetam", "topiramate", "gabapentin", "pregabalin", "phenobarbital"]
+    },
+    "cyp3a4_inhibitor": {
+      "label": "CYP3A4 inhibitor",
+      "members": ["clarithromycin", "erythromycin", "ketoconazole", "itraconazole", "ritonavir", "amiodarone", "verapamil", "diltiazem"]
+    },
+    "cyp3a4_inducer": {
+      "label": "CYP3A4 inducer",
+      "members": ["rifampicin", "carbamazepine", "phenytoin", "phenobarbital", "rifabutin"]
+    },
+    "serotonergic": {
+      "label": "Serotonergic drug",
+      "members": ["fluoxetine", "sertraline", "paroxetine", "citalopram", "escitalopram", "fluvoxamine", "venlafaxine", "duloxetine", "tramadol", "sumatriptan", "rizatriptan", "zolmitriptan", "eletriptan", "selegiline", "phenelzine", "tranylcypromine", "linezolid", "amitriptyline", "imipramine", "clomipramine"]
+    },
+    "cns_depressant": {
+      "label": "CNS depressant",
+      "members": ["morphine", "oxycodone", "hydrocodone", "fentanyl", "methadone", "tramadol", "diazepam", "alprazolam", "clonazepam", "lorazepam", "midazolam", "zolpidem", "zopiclone", "phenobarbital", "alcohol"]
+    },
+    "qt_prolonging": {
+      "label": "QT-prolonging drug",
+      "members": ["amiodarone", "sotalol", "haloperidol", "droperidol", "ondansetron", "ciprofloxacin", "levofloxacin", "moxifloxacin", "clarithromycin", "erythromycin", "azithromycin", "methadone", "quetiapine", "thioridazine", "amitriptyline"]
+    },
+    "nephrotoxic": {
+      "label": "Nephrotoxic drug",
+      "members": ["gentamicin", "tobramycin", "amikacin", "vancomycin", "amphotericin", "ibuprofen", "naproxen", "diclofenac", "ketorolac", "cisplatin", "cyclosporine", "tacrolimus", "tenofovir"]
+    },
+    "hepatotoxic": {
+      "label": "Hepatotoxic drug",
+      "members": ["paracetamol", "acetaminophen", "methotrexate", "isoniazid", "rifampicin", "valproate", "azathioprine", "amiodarone", "ketoconazole"]
+    },
+    "serotonin_reuptake": {
+      "label": "Serotonergic reuptake inhibitor",
+      "members": ["fluoxetine", "sertraline", "paroxetine", "citalopram", "escitalopram", "venlafaxine", "duloxetine", "amitriptyline", "imipramine", "clomipramine", "tramadol", "meperidine"]
+    }
+  },
+  "class_interactions": [
+    {
+      "classes": ["ssri", "maoi"],
+      "severity": "contraindicated",
+      "effect": "Serotonin syndrome — hyperthermia, rigidity, myoclonus, autonomic instability; potentially fatal",
+      "mechanism": "MAO inhibition prevents serotonin breakdown while SSRI blocks neuronal reuptake, causing massive synaptic serotonin accumulation",
+      "recommendation": "Absolutely contraindicated. Wait 14 days after stopping an MAOI before starting an SSRI, and 5 weeks after stopping fluoxetine before starting an MAOI."
+    },
+    {
+      "classes": ["snri", "maoi"],
+      "severity": "contraindicated",
+      "effect": "Serotonin syndrome",
+      "mechanism": "MAO inhibition plus SNRI reuptake blockade",
+      "recommendation": "Contraindicated; separate by at least 14 days."
+    },
+    {
+      "classes": ["tca", "maoi"],
+      "severity": "contraindicated",
+      "effect": "Hypertensive crisis, serotonin syndrome",
+      "mechanism": "MAO inhibition plus TCA amine accumulation",
+      "recommendation": "Contraindicated."
+    },
+    {
+      "classes": ["serotonergic", "maoi"],
+      "severity": "contraindicated",
+      "effect": "Serotonin syndrome — potentially fatal",
+      "mechanism": "Additive serotonergic activity with MAO inhibition",
+      "recommendation": "Avoid all combinations of serotonergic drugs with MAO inhibitors."
+    },
+    {
+      "classes": ["serotonergic", "serotonergic"],
+      "severity": "major",
+      "effect": "Serotonin syndrome",
+      "mechanism": "Additive serotonergic activity",
+      "recommendation": "Use with caution; monitor for agitation, tremor, hyperthermia, clonus."
+    },
+    {
+      "classes": ["nsaid", "anticoagulant"],
+      "severity": "major",
+      "effect": "Markedly increased bleeding risk",
+      "mechanism": "NSAIDs inhibit platelet COX-1 and damage GI mucosa; additive with anticoagulation",
+      "recommendation": "Avoid combination. If unavoidable, add PPI gastroprotection and monitor for bleeding."
+    },
+    {
+      "classes": ["nsaid", "antiplatelet"],
+      "severity": "major",
+      "effect": "Increased GI bleeding risk",
+      "mechanism": "Additive platelet inhibition and GI mucosal injury",
+      "recommendation": "Consider PPI cover; avoid if prior GI bleed."
+    },
+    {
+      "classes": ["nsaid", "nsaid"],
+      "severity": "moderate",
+      "effect": "Additive GI injury, renal impairment",
+      "mechanism": "Additive COX inhibition",
+      "recommendation": "Avoid combining NSAIDs. Use paracetamol for additional analgesia."
+    },
+    {
+      "classes": ["nsaid", "ace_inhibitor"],
+      "severity": "moderate",
+      "effect": "Reduced antihypertensive effect; acute kidney injury",
+      "mechanism": "NSAID inhibits prostaglandin-mediated renal perfusion",
+      "recommendation": "Monitor BP and renal function; limit NSAID duration."
+    },
+    {
+      "classes": ["nsaid", "arb"],
+      "severity": "moderate",
+      "effect": "Reduced antihypertensive effect; acute kidney injury",
+      "mechanism": "NSAID inhibits prostaglandin-mediated renal perfusion",
+      "recommendation": "Monitor BP and renal function."
+    },
+    {
+      "classes": ["nsaid", "loop_diuretic"],
+      "severity": "moderate",
+      "effect": "Reduced diuretic effect; renal impairment",
+      "mechanism": "NSAID blunts prostaglandin-mediated diuresis",
+      "recommendation": "Monitor renal function and diuresis."
+    },
+    {
+      "classes": ["nsaid", "thiazide"],
+      "severity": "moderate",
+      "effect": "Reduced diuretic/antihypertensive effect",
+      "mechanism": "NSAID blunts prostaglandin-mediated diuresis",
+      "recommendation": "Monitor BP and renal function."
+    },
+    {
+      "classes": ["nsaid", "ssri"],
+      "severity": "moderate",
+      "effect": "Increased GI bleeding risk",
+      "mechanism": "SSRI-impaired platelet serotonin plus NSAID GI injury",
+      "recommendation": "Consider gastroprotection; avoid if prior GI bleed."
+    },
+    {
+      "classes": ["nsaid", "snri"],
+      "severity": "moderate",
+      "effect": "Increased GI bleeding risk",
+      "mechanism": "SNRI-impaired platelet serotonin plus NSAID GI injury",
+      "recommendation": "Consider gastroprotection."
+    },
+    {
+      "classes": ["nsaid", "corticosteroid"],
+      "severity": "moderate",
+      "effect": "Increased GI ulceration/bleeding",
+      "mechanism": "Additive GI mucosal injury",
+      "recommendation": "Add PPI; use lowest doses."
+    },
+    {
+      "classes": ["aspirin", "nsaid"],
+      "severity": "moderate",
+      "effect": "Reduced aspirin cardioprotection; additive GI injury",
+      "mechanism": "Ibuprofen-like drugs compete at COX-1 binding site",
+      "recommendation": "Take aspirin >=2 h before NSAID or use alternative analgesic."
+    },
+    {
+      "classes": ["aspirin", "anticoagulant"],
+      "severity": "major",
+      "effect": "Increased bleeding risk",
+      "mechanism": "Additive antiplatelet + anticoagulant effect plus GI injury",
+      "recommendation": "Use only when indicated; monitor for bleeding."
+    },
+    {
+      "classes": ["antiplatelet", "anticoagulant"],
+      "severity": "major",
+      "effect": "Increased bleeding risk",
+      "mechanism": "Additive haemostatic impairment",
+      "recommendation": "Use only when clearly indicated (ACS, stent); monitor for bleeding."
+    },
+    {
+      "classes": ["statin", "fibrate"],
+      "severity": "major",
+      "effect": "Myopathy / rhabdomyolysis",
+      "mechanism": "Additive muscle toxicity, especially with gemfibrozil",
+      "recommendation": "Prefer fenofibrate over gemfibrozil; monitor CK if combination used."
+    },
+    {
+      "classes": ["statin", "cyp3a4_inhibitor"],
+      "severity": "major",
+      "effect": "Myopathy / rhabdomyolysis",
+      "mechanism": "CYP3A4 inhibition raises statin exposure (simvastatin, atorvastatin, lovastatin)",
+      "recommendation": "Suspend statin during course of strong CYP3A4 inhibitor, or switch to pravastatin/rosuvastatin."
+    },
+    {
+      "classes": ["ace_inhibitor", "potassium_sparing_diuretic"],
+      "severity": "major",
+      "effect": "Hyperkalemia",
+      "mechanism": "Dual blockade of aldosterone-mediated potassium excretion",
+      "recommendation": "Monitor potassium and renal function closely."
+    },
+    {
+      "classes": ["arb", "potassium_sparing_diuretic"],
+      "severity": "major",
+      "effect": "Hyperkalemia",
+      "mechanism": "Additive potassium retention",
+      "recommendation": "Monitor potassium/creatinine."
+    },
+    {
+      "classes": ["ace_inhibitor", "arb"],
+      "severity": "major",
+      "effect": "Hyperkalemia, renal impairment, hypotension",
+      "mechanism": "Dual RAAS blockade",
+      "recommendation": "Combination generally not recommended; if used, monitor potassium and renal function."
+    },
+    {
+      "classes": ["ace_inhibitor", "nsaid"],
+      "severity": "moderate",
+      "effect": "Reduced antihypertensive effect; acute kidney injury",
+      "mechanism": "NSAID inhibits prostaglandin-mediated renal perfusion",
+      "recommendation": "Monitor BP and renal function."
+    },
+    {
+      "classes": ["beta_blocker", "calcium_channel_blocker"],
+      "severity": "major",
+      "effect": "Bradycardia, AV block, hypotension (especially with verapamil/diltiazem)",
+      "mechanism": "Additive negative chronotropic and dromotropic effects",
+      "recommendation": "Avoid IV verapamil with beta-blockers; monitor ECG."
+    },
+    {
+      "classes": ["beta_blocker", "insulin"],
+      "severity": "moderate",
+      "effect": "Masked hypoglycemia awareness",
+      "mechanism": "Beta blockade blunts adrenergic warning symptoms",
+      "recommendation": "Educate patient; monitor glucose."
+    },
+    {
+      "classes": ["beta_blocker", "sulfonylurea"],
+      "severity": "moderate",
+      "effect": "Masked hypoglycemia and enhanced glucose lowering",
+      "mechanism": "Beta blockade plus sulfonylurea",
+      "recommendation": "Monitor glucose."
+    },
+    {
+      "classes": ["opioid", "benzodiazepine"],
+      "severity": "major",
+      "effect": "Respiratory depression, sedation, death (FDA black box)",
+      "mechanism": "Additive CNS and respiratory depression",
+      "recommendation": "Use lowest doses for shortest duration; consider naloxone co-prescription."
+    },
+    {
+      "classes": ["opioid", "z_drug"],
+      "severity": "moderate",
+      "effect": "Respiratory depression, sedation",
+      "mechanism": "Additive CNS depression",
+      "recommendation": "Use with caution; monitor sedation."
+    },
+    {
+      "classes": ["benzodiazepine", "z_drug"],
+      "severity": "moderate",
+      "effect": "Respiratory depression, sedation",
+      "mechanism": "Additive CNS depression",
+      "recommendation": "Avoid combining; monitor."
+    },
+    {
+      "classes": ["opioid", "tca"],
+      "severity": "moderate",
+      "effect": "Respiratory depression, sedation, constipation",
+      "mechanism": "Additive CNS and anticholinergic effects",
+      "recommendation": "Monitor sedation and respiration."
+    },
+    {
+      "classes": ["sulfonylurea", "insulin"],
+      "severity": "moderate",
+      "effect": "Severe hypoglycemia",
+      "mechanism": "Additive glucose-lowering effect",
+      "recommendation": "Monitor glucose; adjust doses."
+    },
+    {
+      "classes": ["sulfonylurea", "biguanide"],
+      "severity": "minor",
+      "effect": "Additive glucose lowering — usually intentional combination therapy",
+      "mechanism": "Complementary mechanisms",
+      "recommendation": "Monitor glucose; adjust doses as needed."
+    },
+    {
+      "classes": ["pde5_inhibitor", "nitrate"],
+      "severity": "contraindicated",
+      "effect": "Profound hypotension, syncope, myocardial infarction",
+      "mechanism": "Additive cGMP-mediated vasodilation",
+      "recommendation": "Absolutely contraindicated. Separate by at least 24 h (48 h for tadalafil)."
+    },
+    {
+      "classes": ["pde5_inhibitor", "ace_inhibitor"],
+      "severity": "minor",
+      "effect": "Mild additive hypotension",
+      "mechanism": "Additive vasodilation",
+      "recommendation": "Usually safe; warn patient about first-dose hypotension."
+    },
+    {
+      "classes": ["qt_prolonging", "qt_prolonging"],
+      "severity": "major",
+      "effect": "QT prolongation, torsades de pointes, sudden cardiac death",
+      "mechanism": "Additive cardiac repolarisation delay",
+      "recommendation": "Avoid combinations. If unavoidable, obtain baseline and follow-up ECG, monitor electrolytes."
+    },
+    {
+      "classes": ["nephrotoxic", "nephrotoxic"],
+      "severity": "major",
+      "effect": "Acute kidney injury",
+      "mechanism": "Additive renal tubular/glomerular injury",
+      "recommendation": "Avoid combination. If unavoidable, monitor renal function and drug levels."
+    },
+    {
+      "classes": ["hepatotoxic", "hepatotoxic"],
+      "severity": "moderate",
+      "effect": "Additive hepatotoxicity",
+      "mechanism": "Multiple hepatotoxic mechanisms",
+      "recommendation": "Monitor LFTs; avoid alcohol."
+    },
+    {
+      "classes": ["cyp3a4_inducer", "statin"],
+      "severity": "moderate",
+      "effect": "Reduced statin efficacy",
+      "mechanism": "CYP3A4 induction accelerates statin metabolism",
+      "recommendation": "May need higher statin dose; monitor lipids."
+    },
+    {
+      "classes": ["cyp3a4_inducer", "anticoagulant"],
+      "severity": "major",
+      "effect": "Reduced anticoagulation, thrombosis risk",
+      "mechanism": "CYP3A4 induction accelerates DOAC/warfarin metabolism",
+      "recommendation": "Monitor anticoagulation (INR or anti-Xa); dose adjust."
+    },
+    {
+      "classes": ["cyp3a4_inducer", "benzodiazepine"],
+      "severity": "minor",
+      "effect": "Reduced benzodiazepine effect",
+      "mechanism": "CYP3A4 induction accelerates metabolism",
+      "recommendation": "May need dose adjustment."
+    },
+    {
+      "classes": ["ace_inhibitor", "lithium"],
+      "severity": "major",
+      "effect": "Lithium toxicity",
+      "mechanism": "Reduced renal lithium clearance",
+      "recommendation": "Monitor lithium levels; avoid if possible."
+    },
+    {
+      "classes": ["thiazide", "lithium"],
+      "severity": "major",
+      "effect": "Lithium toxicity",
+      "mechanism": "Thiazide-induced sodium depletion increases lithium reabsorption",
+      "recommendation": "Monitor lithium level."
+    },
+    {
+      "classes": ["loop_diuretic", "lithium"],
+      "severity": "moderate",
+      "effect": "Lithium toxicity",
+      "mechanism": "Reduced renal lithium clearance",
+      "recommendation": "Monitor lithium level."
+    },
+    {
+      "classes": ["aminoglycoside", "loop_diuretic"],
+      "severity": "major",
+      "effect": "Ototoxicity and nephrotoxicity",
+      "mechanism": "Additive damage to cochlear and renal tubular cells",
+      "recommendation": "Avoid; if essential, use lowest doses and monitor levels."
+    },
+    {
+      "classes": ["macrolide", "statin"],
+      "severity": "major",
+      "effect": "Myopathy / rhabdomyolysis",
+      "mechanism": "CYP3A4 inhibition raises statin exposure",
+      "recommendation": "Suspend statin during macrolide course, or use azithromycin."
+    },
+    {
+      "classes": ["macrolide", "anticoagulant"],
+      "severity": "major",
+      "effect": "Elevated INR / bleeding risk",
+      "mechanism": "CYP3A4 inhibition plus gut flora effects",
+      "recommendation": "Monitor anticoagulation closely."
+    },
+    {
+      "classes": ["fluoroquinolone", "anticoagulant"],
+      "severity": "major",
+      "effect": "Elevated INR / bleeding risk",
+      "mechanism": "CYP1A2 inhibition and gut flora disruption",
+      "recommendation": "Monitor anticoagulation closely."
+    },
+    {
+      "classes": ["fluoroquinolone", "qt_prolonging"],
+      "severity": "moderate",
+      "effect": "Additive QT prolongation",
+      "mechanism": "Additive cardiac repolarisation delay",
+      "recommendation": "Monitor ECG if concurrent."
+    },
+    {
+      "classes": ["azole_antifungal", "anticoagulant"],
+      "severity": "major",
+      "effect": "Elevated INR / bleeding",
+      "mechanism": "CYP2C9 / CYP3A4 inhibition",
+      "recommendation": "Monitor anticoagulation closely; reduce dose if necessary."
+    },
+    {
+      "classes": ["azole_antifungal", "statin"],
+      "severity": "major",
+      "effect": "Myopathy / rhabdomyolysis",
+      "mechanism": "CYP3A4 inhibition",
+      "recommendation": "Suspend statin during azole course."
+    },
+    {
+      "classes": ["triptan", "maoi"],
+      "severity": "contraindicated",
+      "effect": "Serotonin syndrome",
+      "mechanism": "MAO inhibition blocks triptan metabolism plus additive serotonergic effect",
+      "recommendation": "Contraindicated."
+    },
+    {
+      "classes": ["triptan", "ssri"],
+      "severity": "moderate",
+      "effect": "Serotonin syndrome risk",
+      "mechanism": "Additive serotonergic activity",
+      "recommendation": "Monitor for agitation, tremor, hyperthermia."
+    },
+    {
+      "classes": ["opioid", "maoi"],
+      "severity": "contraindicated",
+      "effect": "Hyperpyrexia, coma, respiratory depression",
+      "mechanism": "MAO inhibition plus opioid serotonergic effects",
+      "recommendation": "Contraindicated."
+    },
+    {
+      "classes": ["serotonergic", "triptan"],
+      "severity": "moderate",
+      "effect": "Serotonin syndrome risk",
+      "mechanism": "Additive serotonergic activity",
+      "recommendation": "Monitor for serotonin syndrome."
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "morphine": {
+    "class": "opioid analgesic",
+    "therapeutic_max_mg_per_day": 120,
+    "toxic_mg": 200,
+    "lethal_mg": 500,
+    "notes": "Respiratory depression is the primary toxicity. Opioid-naive adults can die from far lower doses; tolerance varies widely.",
+    "antidote": "Naloxone"
+  },
+  "oxycodone": {
+    "class": "opioid analgesic",
+    "therapeutic_max_mg_per_day": 60,
+    "toxic_mg": 80,
+    "lethal_mg": 240,
+    "notes": "Respiratory depression. Worse with alcohol, benzodiazepines, or other CNS depressants.",
+    "antidote": "Naloxone"
+  },
+  "tramadol": {
+    "class": "opioid analgesic",
+    "therapeutic_max_mg_per_day": 400,
+    "toxic_mg": 500,
+    "lethal_mg": 1000,
+    "notes": "Seizures and serotonin syndrome at high doses.",
+    "antidote": "Naloxone (partial), benzodiazepines for seizures"
+  },
+  "codeine": {
+    "class": "opioid analgesic",
+    "therapeutic_max_mg_per_day": 240,
+    "toxic_mg": 400,
+    "lethal_mg": 800,
+    "antidote": "Naloxone"
+  },
+  "hydrocodone": {
+    "class": "opioid analgesic",
+    "therapeutic_max_mg_per_day": 60,
+    "toxic_mg": 80,
+    "lethal_mg": 240,
+    "antidote": "Naloxone"
+  },
+  "methadone": {
+    "class": "opioid analgesic",
+    "therapeutic_max_mg_per_day": 120,
+    "toxic_mg": 200,
+    "lethal_mg": 500,
+    "notes": "QT prolongation. Long half-life — cumulative toxicity.",
+    "antidote": "Naloxone"
+  },
+  "paracetamol": {
+    "class": "analgesic / antipyretic",
+    "therapeutic_max_mg_per_day": 4000,
+    "toxic_mg": 7500,
+    "lethal_mg": 15000,
+    "notes": "Hepatotoxicity is delayed 24-72 h; N-acetylcysteine is most effective within 8 h.",
+    "antidote": "N-acetylcysteine"
+  },
+  "acetaminophen": {
+    "class": "analgesic / antipyretic",
+    "therapeutic_max_mg_per_day": 4000,
+    "toxic_mg": 7500,
+    "lethal_mg": 15000,
+    "antidote": "N-acetylcysteine"
+  },
+  "ibuprofen": {
+    "class": "NSAID",
+    "therapeutic_max_mg_per_day": 3200,
+    "toxic_mg": 6400,
+    "lethal_mg": 20000,
+    "notes": "GI bleeding, renal failure, metabolic acidosis at high doses."
+  },
+  "naproxen": {
+    "class": "NSAID",
+    "therapeutic_max_mg_per_day": 1500,
+    "toxic_mg": 3000,
+    "lethal_mg": 10000
+  },
+  "aspirin": {
+    "class": "NSAID / antiplatelet",
+    "therapeutic_max_mg_per_day": 4000,
+    "toxic_mg": 6500,
+    "lethal_mg": 30000,
+    "notes": "Salicylate poisoning: tinnitus, hyperventilation, metabolic acidosis. Reye's syndrome in children.",
+    "antidote": "Sodium bicarbonate, haemodialysis"
+  },
+  "diclofenac": {
+    "class": "NSAID",
+    "therapeutic_max_mg_per_day": 150,
+    "toxic_mg": 300,
+    "lethal_mg": 1000
+  },
+  "warfarin": {
+    "class": "anticoagulant",
+    "therapeutic_max_mg_per_day": 10,
+    "toxic_mg": 20,
+    "lethal_mg": 100,
+    "notes": "Anticoagulation is monitored by INR. A single large dose causes severe haemorrhage.",
+    "antidote": "Vitamin K, prothrombin complex concentrate"
+  },
+  "apixaban": {
+    "class": "DOAC",
+    "therapeutic_max_mg_per_day": 10,
+    "toxic_mg": 20,
+    "lethal_mg": 100,
+    "antidote": "Andexanet alfa"
+  },
+  "rivaroxaban": {
+    "class": "DOAC",
+    "therapeutic_max_mg_per_day": 20,
+    "toxic_mg": 40,
+    "lethal_mg": 100,
+    "antidote": "Andexanet alfa"
+  },
+  "dabigatran": {
+    "class": "DOAC",
+    "therapeutic_max_mg_per_day": 300,
+    "toxic_mg": 600,
+    "lethal_mg": 2000,
+    "antidote": "Idarucizumab"
+  },
+  "clopidogrel": {
+    "class": "antiplatelet",
+    "therapeutic_max_mg_per_day": 75,
+    "toxic_mg": 150,
+    "lethal_mg": 500
+  },
+  "atorvastatin": {
+    "class": "statin",
+    "therapeutic_max_mg_per_day": 80,
+    "toxic_mg": 160,
+    "lethal_mg": 500
+  },
+  "simvastatin": {
+    "class": "statin",
+    "therapeutic_max_mg_per_day": 40,
+    "toxic_mg": 80,
+    "lethal_mg": 300
+  },
+  "rosuvastatin": {
+    "class": "statin",
+    "therapeutic_max_mg_per_day": 40,
+    "toxic_mg": 80,
+    "lethal_mg": 300
+  },
+  "metformin": {
+    "class": "antidiabetic",
+    "therapeutic_max_mg_per_day": 2550,
+    "toxic_mg": 5000,
+    "lethal_mg": 10000,
+    "notes": "Lactic acidosis, especially in renal impairment.",
+    "antidote": "Haemodialysis"
+  },
+  "glimepiride": {
+    "class": "sulfonylurea",
+    "therapeutic_max_mg_per_day": 8,
+    "toxic_mg": 16,
+    "lethal_mg": 30,
+    "notes": "Severe prolonged hypoglycaemia.",
+    "antidote": "Dextrose, octreotide"
+  },
+  "glipizide": {
+    "class": "sulfonylurea",
+    "therapeutic_max_mg_per_day": 20,
+    "toxic_mg": 40,
+    "lethal_mg": 100,
+    "antidote": "Dextrose, octreotide"
+  },
+  "ramipril": {
+    "class": "ACE inhibitor",
+    "therapeutic_max_mg_per_day": 10,
+    "toxic_mg": 20,
+    "lethal_mg": 100,
+    "notes": "Hypotension, hyperkalaemia, renal failure."
+  },
+  "losartan": {
+    "class": "ARB",
+    "therapeutic_max_mg_per_day": 100,
+    "toxic_mg": 200,
+    "lethal_mg": 1000
+  },
+  "telmisartan": {
+    "class": "ARB",
+    "therapeutic_max_mg_per_day": 80,
+    "toxic_mg": 160,
+    "lethal_mg": 800
+  },
+  "amlodipine": {
+    "class": "calcium channel blocker",
+    "therapeutic_max_mg_per_day": 10,
+    "toxic_mg": 20,
+    "lethal_mg": 100,
+    "notes": "Severe hypotension and reflex tachycardia.",
+    "antidote": "Calcium chloride, vasopressors"
+  },
+  "metoprolol": {
+    "class": "beta blocker",
+    "therapeutic_max_mg_per_day": 200,
+    "toxic_mg": 400,
+    "lethal_mg": 1000,
+    "notes": "Bradycardia, AV block, bronchospasm, hypoglycaemia masking.",
+    "antidote": "Glucagon, high-dose insulin, pacing"
+  },
+  "propranolol": {
+    "class": "beta blocker",
+    "therapeutic_max_mg_per_day": 320,
+    "toxic_mg": 640,
+    "lethal_mg": 2000,
+    "antidote": "Glucagon, high-dose insulin"
+  },
+  "verapamil": {
+    "class": "calcium channel blocker",
+    "therapeutic_max_mg_per_day": 480,
+    "toxic_mg": 720,
+    "lethal_mg": 1500,
+    "antidote": "Calcium, vasopressors, pacing"
+  },
+  "diltiazem": {
+    "class": "calcium channel blocker",
+    "therapeutic_max_mg_per_day": 480,
+    "toxic_mg": 720,
+    "lethal_mg": 1500
+  },
+  "digoxin": {
+    "class": "cardiac glycoside",
+    "therapeutic_max_mg_per_day": 0.25,
+    "toxic_mg": 0.5,
+    "lethal_mg": 5,
+    "notes": "Very narrow therapeutic index. Toxicity: nausea, visual halos, arrhythmias.",
+    "antidote": "Digoxin-specific antibody fragments"
+  },
+  "furosemide": {
+    "class": "loop diuretic",
+    "therapeutic_max_mg_per_day": 80,
+    "toxic_mg": 200,
+    "lethal_mg": 1000
+  },
+  "hydrochlorothiazide": {
+    "class": "thiazide diuretic",
+    "therapeutic_max_mg_per_day": 50,
+    "toxic_mg": 100,
+    "lethal_mg": 500
+  },
+  "spironolactone": {
+    "class": "potassium-sparing diuretic",
+    "therapeutic_max_mg_per_day": 100,
+    "toxic_mg": 200,
+    "lethal_mg": 1000,
+    "notes": "Hyperkalaemia, especially with ACE inhibitors or ARBs."
+  },
+  "levothyroxine": {
+    "class": "thyroid hormone",
+    "therapeutic_max_mg_per_day": 0.2,
+    "toxic_mg": 0.5,
+    "lethal_mg": 3,
+    "notes": "Thyroid storm, arrhythmias at high doses."
+  },
+  "omeprazole": {
+    "class": "proton pump inhibitor",
+    "therapeutic_max_mg_per_day": 40,
+    "toxic_mg": 80,
+    "lethal_mg": 500
+  },
+  "pantoprazole": {
+    "class": "proton pump inhibitor",
+    "therapeutic_max_mg_per_day": 40,
+    "toxic_mg": 80,
+    "lethal_mg": 500
+  },
+  "fluoxetine": {
+    "class": "SSRI",
+    "therapeutic_max_mg_per_day": 60,
+    "toxic_mg": 100,
+    "lethal_mg": 500,
+    "notes": "Serotonin syndrome; QT prolongation at high doses."
+  },
+  "sertraline": {
+    "class": "SSRI",
+    "therapeutic_max_mg_per_day": 200,
+    "toxic_mg": 300,
+    "lethal_mg": 1000
+  },
+  "amitriptyline": {
+    "class": "TCA",
+    "therapeutic_max_mg_per_day": 150,
+    "toxic_mg": 300,
+    "lethal_mg": 1000,
+    "notes": "Cardiotoxic — wide QRS, arrhythmias. Highly lethal in overdose.",
+    "antidote": "Sodium bicarbonate"
+  },
+  "phenelzine": {
+    "class": "MAOI",
+    "therapeutic_max_mg_per_day": 90,
+    "toxic_mg": 120,
+    "lethal_mg": 300,
+    "notes": "Hypertensive crisis with tyramine-rich foods; serotonin syndrome with SSRIs."
+  },
+  "diazepam": {
+    "class": "benzodiazepine",
+    "therapeutic_max_mg_per_day": 40,
+    "toxic_mg": 60,
+    "lethal_mg": 200,
+    "notes": "Respiratory depression, especially with opioids or alcohol.",
+    "antidote": "Flumazenil (use with caution)"
+  },
+  "alprazolam": {
+    "class": "benzodiazepine",
+    "therapeutic_max_mg_per_day": 10,
+    "toxic_mg": 15,
+    "lethal_mg": 50,
+    "antidote": "Flumazenil (use with caution)"
+  },
+  "clonazepam": {
+    "class": "benzodiazepine",
+    "therapeutic_max_mg_per_day": 20,
+    "toxic_mg": 30,
+    "lethal_mg": 80
+  },
+  "zolpidem": {
+    "class": "sedative-hypnotic",
+    "therapeutic_max_mg_per_day": 10,
+    "toxic_mg": 20,
+    "lethal_mg": 100
+  },
+  "clozapine": {
+    "class": "antipsychotic",
+    "therapeutic_max_mg_per_day": 900,
+    "toxic_mg": 1200,
+    "lethal_mg": 3000,
+    "notes": "Agranulocytosis, myocarditis, seizures."
+  },
+  "sildenafil": {
+    "class": "PDE5 inhibitor",
+    "therapeutic_max_mg_per_day": 100,
+    "toxic_mg": 200,
+    "lethal_mg": 500,
+    "notes": "Profound hypotension with nitrates."
+  },
+  "tadalafil": {
+    "class": "PDE5 inhibitor",
+    "therapeutic_max_mg_per_day": 20,
+    "toxic_mg": 40,
+    "lethal_mg": 100
+  },
+  "allopurinol": {
+    "class": "xanthine oxidase inhibitor",
+    "therapeutic_max_mg_per_day": 800,
+    "toxic_mg": 1600,
+    "lethal_mg": 5000
+  },
+  "methotrexate": {
+    "class": "antimetabolite",
+    "therapeutic_max_mg_per_day": 25,
+    "toxic_mg": 100,
+    "lethal_mg": 500,
+    "notes": "Marrow suppression, mucositis, hepatotoxicity.",
+    "antidote": "Leucovorin (folinic acid), glucarpidase"
+  },
+  "azathioprine": {
+    "class": "immunosuppressant",
+    "therapeutic_max_mg_per_day": 300,
+    "toxic_mg": 500,
+    "lethal_mg": 1500
+  },
+  "lithium": {
+    "class": "mood stabiliser",
+    "therapeutic_max_mg_per_day": 1200,
+    "toxic_mg": 1800,
+    "lethal_mg": 3000,
+    "notes": "Very narrow therapeutic index. Levels guide management.",
+    "antidote": "Haemodialysis"
+  },
+  "theophylline": {
+    "class": "bronchodilator",
+    "therapeutic_max_mg_per_day": 600,
+    "toxic_mg": 800,
+    "lethal_mg": 1500,
+    "notes": "Narrow therapeutic index. Seizures and arrhythmias at high levels."
+  },
+  "phenytoin": {
+    "class": "anticonvulsant",
+    "therapeutic_max_mg_per_day": 400,
+    "toxic_mg": 600,
+    "lethal_mg": 2000,
+    "notes": "Non-linear kinetics. Nystagmus, ataxia, arrhythmias at high levels."
+  },
+  "carbamazepine": {
+    "class": "anticonvulsant",
+    "therapeutic_max_mg_per_day": 1200,
+    "toxic_mg": 1600,
+    "lethal_mg": 3000
+  },
+  "clarithromycin": {
+    "class": "macrolide antibiotic",
+    "therapeutic_max_mg_per_day": 1000,
+    "toxic_mg": 2000,
+    "lethal_mg": 5000
+  },
+  "erythromycin": {
+    "class": "macrolide antibiotic",
+    "therapeutic_max_mg_per_day": 2000,
+    "toxic_mg": 4000,
+    "lethal_mg": 10000
+  },
+  "ciprofloxacin": {
+    "class": "fluoroquinolone",
+    "therapeutic_max_mg_per_day": 1500,
+    "toxic_mg": 3000,
+    "lethal_mg": 8000
+  },
+  "metronidazole": {
+    "class": "nitroimidazole antibiotic",
+    "therapeutic_max_mg_per_day": 2000,
+    "toxic_mg": 4000,
+    "lethal_mg": 10000
+  },
+  "fluconazole": {
+    "class": "antifungal",
+    "therapeutic_max_mg_per_day": 400,
+    "toxic_mg": 800,
+    "lethal_mg": 2000
+  },
+  "itraconazole": {
+    "class": "antifungal",
+    "therapeutic_max_mg_per_day": 400,
+    "toxic_mg": 800,
+    "lethal_mg": 2000
+  },
+  "rifampicin": {
+    "class": "antitubercular",
+    "therapeutic_max_mg_per_day": 600,
+    "toxic_mg": 1200,
+    "lethal_mg": 3000,
+    "notes": "Hepatotoxicity, orange-red secretions."
+  },
+  "salbutamol": {
+    "class": "beta-2 agonist",
+    "therapeutic_max_mg_per_day": 16,
+    "toxic_mg": 32,
+    "lethal_mg": 100,
+    "notes": "Tachycardia, tremor, hypokalaemia."
+  },
+  "albuterol": {
+    "class": "beta-2 agonist",
+    "therapeutic_max_mg_per_day": 16,
+    "toxic_mg": 32,
+    "lethal_mg": 100
+  },
+  "prednisolone": {
+    "class": "corticosteroid",
+    "therapeutic_max_mg_per_day": 60,
+    "toxic_mg": 100,
+    "lethal_mg": 500
+  },
+  "prednisone": {
+    "class": "corticosteroid",
+    "therapeutic_max_mg_per_day": 60,
+    "toxic_mg": 100,
+    "lethal_mg": 500
+  },
+  "isosorbide": {
+    "class": "nitrate",
+    "therapeutic_max_mg_per_day": 120,
+    "toxic_mg": 200,
+    "lethal_mg": 500,
+    "notes": "Severe hypotension and reflex tachycardia."
+  }
+}
